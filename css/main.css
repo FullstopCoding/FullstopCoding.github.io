@@ -4,14 +4,14 @@ body {
 
 /* TODO:
 
-in container
 
-display: flex;
-justify-content: space-between;
-
-justify
 
  */
+
+.flexmenu {
+  display: flex;
+  justify-content: space-between;
+}
 
 .menu {
   font-family: sans-serif;

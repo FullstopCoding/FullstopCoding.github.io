@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+}
+
+/* TODO:
+
+in container
+
+display: flex;
+justify-content: space-between;
+
+justify
+
+ */
+
+.menu {
+  font-family: sans-serif;
+  text-align: center;
+  display: block;
+  float: left;
+  left: 15%;
+  color: white;
+}
+
+.menu a {
+  text-decoration: none;
+  display: inline;
+  color: white;
+}
+
+.menu li {
+  display: inline-block;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.menu li:last-child {
+  border-bottom: none;
+}
+
+.social {
+  font-family: sans-serif;
+  color: #00E9FF;
+  float: right;
+  font-size: 50px;
+}
+
+.social a {
+  color: #FF38E4;
+  display: inline;
+}
+
+.social a:hover {
+  color: #00E9FF;
+}
+
+.social li {
+  display: inline-block;
+  text-align: right;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
